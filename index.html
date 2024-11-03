@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Barbería - Inicio</title>
+   
+</head>
+<body class="bg-gray-800 flex flex-col items-center justify-center h-screen relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1599102991024-ed6032d5e7ee?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <!-- Capa de color sobre la imagen -->
+    <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
+
+    <!-- Contenido principal -->
+    <div class="relative z-10 text-center text-white">
+        <!-- Título fuera del contenedor principal -->
+        <h1 class="bienvenida">Bienvenido a la Barbería ----</h1>
+
+        <!-- Contenedor principal -->
+        <div class="bg-gray-900 bg-opacity-80 p-8 rounded-lg shadow-lg w-80 sm:w-96">
+            
+            <!-- Contenedor de botones con display flex -->
+            <div class="flex space-x-4">
+                <!-- Botón para clientes -->
+                <a href="./pages/register.html" class="flex-1 py-3 text-lg font-semibold text-black bg-white hover:bg-black hover:text-white rounded text-center transition duration-300 shadow-md">
+                    Soy Cliente
+                </a>
+                
+                <!-- Botón para barbero -->
+                <a href="/barbero" class="flex-1 py-3 text-lg font-semibold text-white bg-black hover:bg-white hover:text-black rounded text-center transition duration-300 shadow-md">
+                    Soy el Barbero
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center text-white"> &copy; 2024 Develop by Aquiles Diaz </p>
+    </footer>
+
+</body>
+</html>
